@@ -1,0 +1,52 @@
+#header {
+  display: flex;
+  background: #E59400;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#logo{
+  color: inherit;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 50px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#logo-text{
+  color: inherit;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin: 12px;
+}
+
+#login{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 50px;
+  color: inherit;
+  align-items: center;
+  margin :30px;
+  justify-content: center;
+}
+
+#user{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size:  25px;
+  margin :30px;
+  color: inherit;
+}

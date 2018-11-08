@@ -1,0 +1,49 @@
+dObjective: Create a web application that allows the users to
+            select artists from his or her spotify account and observe trends
+            This is a mini project mean to help me get familiarized
+            with node(express really) with middleware and libraries, javascript,
+            basic react, html and css, http, animation libraries
+
+API Endpoints:
+
+    spotify:
+
+     Search
+     Player
+     Personalization
+     Follow
+     artists
+
+launch-site:
+  * login Info( basic barebones)
+
+User-Page:
+  this page displays a users information and artist
+
+the main user page displays the artists the
+user tends to listen to and will provide many different ways
+of organizing that artists depending on certain parameters
+
+There will be certain categories for selecting the artists displayed
+which will include
+
+     #Top artists on spotify by country
+     #Top artists on spotify by country(viral)
+     #Top artists by genre
+     #By user's preference
+
+      * organize each list of artists by
+           popularity
+           followers
+           plays
+
+     Artist Component
+
+         The component will tell at a glance the artist information
+         popularity score , followers, genre.
+
+     Artist Component(expanded)
+         this will open up the average value of the qualties of their
+         music overall, along with the above components
+
+Log-out-page:

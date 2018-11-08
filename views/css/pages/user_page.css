@@ -1,0 +1,19 @@
+#UserPageWrapper{
+  color: #F9FDE8;
+  background-color: #F9FDE8;
+  display: grid;
+  grid-template-rows: 60px 500px 200px;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100%;
+}
+
+#user_page_content{
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}

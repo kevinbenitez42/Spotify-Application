@@ -1,0 +1,62 @@
+#LoginWrapper{
+  color: #F9FDE8;
+  background-color: #F9FDE8;
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  display: grid;
+  grid-template-rows: 60px 800px 200px 100px;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100%;
+}
+
+#content{
+  border-radius: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-size: 95% auto;
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column-start: 1;
+  grid-column-end:   13;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#top_text{
+  margin-top: 50px;
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  font-size: 40px;
+  text-align: center;
+}
+
+#bottom_text{
+  margin-bottom:50px;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column-reverse;
+  font-size: 40px;
+  text-align: center;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+  background: #E59400;
+  border-radius: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+#web_info{
+  text-align: center;
+}
